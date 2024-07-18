@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'app-counter',
-    template: `
+    template: `,
     
 <h2>Contador es  {{counter}} </h2>
 
