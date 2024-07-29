@@ -14,7 +14,7 @@
         <span class="text-danger">{{i + 1}}.</span>
         {{character.name}}
         <strong> Power: {{character.power }}</strong>
-        <button class="btn-danger" (click)="onDeleteHero(i)">Eliminar</button>
+        <button class="btn-danger" (click)="onDeleteHero(character.id)">Eliminar</button>
     </li>
 
 

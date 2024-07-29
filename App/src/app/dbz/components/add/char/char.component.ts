@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { typeCharacter } from '../../../Interfaces/types.interface';
+import { typeCharacterOutID } from '../../../Interfaces/types.interface';
 
 
 @Component({
@@ -13,10 +13,10 @@ export class CharComponent {
 
 
     @Output()
-    public onNewCharacter: EventEmitter<typeCharacter> = new EventEmitter();
+    public onNewCharacter: EventEmitter<typeCharacterOutID> = new EventEmitter();
 
 
-    public newCharacter: typeCharacter = {
+    public newCharacter: typeCharacterOutID = {
         name: '',
         power: 0
     }
