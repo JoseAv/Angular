@@ -1,0 +1,11 @@
+<div class="container-sidebar">
+
+
+    <h2>GifsApp</h2>
+
+    <div class="container-button flex-column">
+        <Button type="button" class="btn" *ngFor="let item of getHistory()" (click)="Refres(item)">{{item |
+            titlecase}} </Button>
+    </div>
+
+</div>

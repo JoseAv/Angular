@@ -1,0 +1,10 @@
+.body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.container-global {
+    display: flex;
+    gap: 20px;
+}
